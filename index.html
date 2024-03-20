@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Textos </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__texto">Challenge ONE: Desafio Decodificador</h1>
+    </header>
+
+    <main class="conteiner">
+        <section class="conteudo">
+            <div class="entrada">
+                <textarea class="entrada__conteudo" id="texto" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="obs">
+                <img class="obs__imagem" src="imagens/information.png" alt="Exclamação"></a>
+                <h5>Letras maiúsculas e caracteres especiais não serão aceitos.</h5>
+            </div>
+            <div class="botao">
+                <button class="botao__codificar" onclick="escolherOpcao('codificar')">Criptografar</button>
+                <button class="botao__decodificar" onclick="escolherOpcao('decodificar')">Descriptografar</button>
+            </div>
+        </section>
+        <section class="area-de-saida">
+            <div class="area-de-saida_info">
+                <img class="area-de-saida_info__imagem" src="imagens/gandalf.jpg" alt="Gandalf segurando uma lupa"
+                    alt="Mago Gandalf segurando uma lupa.">
+                <p class="area-de-saida_info__texto"><strong>Nenhuma mensagem encontrada!</strong><br><br>Digite um
+                    texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="area-de-saida__res">
+                <textarea class="area-de-saida__res__resultado" id="resultado" readonly></textarea>
+                <button class="area-de-saida__res__btn" onclick="copiarTexto()" id="Copiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <a href="https://github.com/dugabrielle" target="_blank"><img src="imagens/github.png"></a>
+        <a href="https://www.linkedin.com/in/gabrielle-duarte-1as23/" target="_blank"><img
+                src="imagens/linkedin.png"></a>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="js/script.js"></script>
+
+</main>
+
+</body>
+
+</html>
